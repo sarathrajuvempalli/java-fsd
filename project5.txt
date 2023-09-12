@@ -1,4 +1,5 @@
 Code:
+
 package phaseone;
 import java.util.*;
 public class collections {
@@ -47,3 +48,21 @@ System.out.println(set2);
 }
 }
 }
+
+OUTPUT:
+
+ArrayList
+[kolkata, maharastra]
+
+Vector
+[15, 30]
+
+LinkedList
+ram
+
+HashSet
+[112, 113, 110, 111]
+
+LinkedHashSet
+[1, 12, 13, 14]
+mohan
