@@ -1,4 +1,6 @@
-Code:
+CODE:
+
+
 package phaseone;
 public class AccessSpecifier {
 void display() {
@@ -26,3 +28,53 @@ PriAccessSpecifier obj = new PriAccessSpecifier();
 obj.display(); // Access the private method of the same class
 }
 }
+
+
+OUTPUT:
+
+Private Access Specifier
+you are using the private acess specifier
+
+
+CODE:
+package phaseone;
+public class protectedaccessspecifiers {
+protected void display()
+{
+System.out.println("This is protected access specifier");
+}
+}
+
+Code:
+package phaseone;
+import phaseone.*;
+public class procetedaccessspeifiers extends procetedaccessspecifiers {
+public static void main(String[] args) {
+procetedaccessspeifiers obj = new procetedaccessspeifiers ();
+obj.display();
+}
+}
+
+Code:
+package phaseone;
+public class publicaccessspecifier {
+public void display()
+{
+System.out.println("This is Public Access Specifiers");
+}
+}
+
+Code:
+package phaseone;
+import phaseone.*;
+public class publicaccessspecifier1 {
+public static void main(String[] args) {
+publicaccessspecifier obj = new publicaccessspecifier();
+obj.display();
+}
+}
+
+
+OUTPUT:
+
+This is public Access Specifiers
