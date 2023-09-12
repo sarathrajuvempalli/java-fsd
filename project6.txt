@@ -1,3 +1,5 @@
+CODE:
+
 package phaseone;
 import java.util.*;
 public class Maps {
@@ -34,3 +36,21 @@ System.out.println(l.getKey()+" "+l.getValue());
 }
 }
 }
+
+OUTPUT:
+
+The elements of Hashmap are
+1 naveen
+2 karthik
+3 kavya
+
+The elements of Hashtable are 
+7 kumar
+6 stephen
+5 raj
+4 jhansi
+
+The elementa of TreeMap are 
+8 pramod
+9 crusie
+10 nancy
