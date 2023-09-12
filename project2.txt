@@ -1,0 +1,28 @@
+Code:
+package phaseone;
+public class AccessSpecifier {
+void display() {
+System.out.println("You are using the default access specifier");
+}
+}
+public class DefaultAccessSpecifiers {
+public static void main(String[] args) {
+System.out.println("Default Access Specifier");
+AccessSpecifier obj = new AccessSpecifier();
+obj.display();
+}
+private void display() {
+}
+}
+Code:
+package phaseone;
+public class PriAccessSpecifier {
+private void display() {
+System.out.println("You are using the private access specifier");
+}
+public static void main(String[] args) {
+System.out.println("Private Access Specifier");
+PriAccessSpecifier obj = new PriAccessSpecifier();
+obj.display(); // Access the private method of the same class
+}
+}
