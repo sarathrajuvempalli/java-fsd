@@ -1,3 +1,6 @@
+CODE:
+
+
 Package phaseone;
 public class strings {
 public static void main(String[] args) {
@@ -66,4 +69,35 @@ System.out.println("String to StringBuilder");
 System.out.println(sbl);
 }
 }
+
+
+OUTPUT:
+
+Methods of Strings
+11
+Welcome 
+8
+true
+Hello
+false
+
+
+
+Creating StringBuffer
+Welcome to Java!Enjoy your learning
+hello
+
+
+Creating StringBuilder
+HappyLearning
+appyLearning
+awelcomeppyLearning
+gninraeLyppemocleWa
+
+
+Conversion of Strings to StringBuffer and StringBuildder
+String to StringBuffer
+olleH
+String to StringBuilder
+Helloworld
 
