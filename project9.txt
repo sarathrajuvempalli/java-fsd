@@ -1,4 +1,6 @@
-Code :
+CODE :
+
+
 package phaseone;
 public class arrays {
 public static void main(String[] args) {
@@ -15,3 +17,16 @@ int[][] b = {
 System.out.println("\nLength of row 1: " + b[0].length);
 }
 }
+
+OUTPUT:
+
+Elements of array a: 10
+Elements of array a: 20
+Elements of array a: 30
+Elements of array a: 40
+Elements of array a: 50
+
+
+Length of row 1: 4
+
+
